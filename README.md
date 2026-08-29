@@ -13,4 +13,7 @@ Published URLs (after Pages is enabled on `main`):
 - EverDue privacy: https://surabaapps.github.io/everdue/privacy-policy.html
 - EverDue delete account: https://surabaapps.github.io/everdue/delete-account.html
 
-Contact: contactfarmhand@gmail.com
+Support:
+- Mango: contactfarmhand@gmail.com
+- Obra: obra.app.support@gmail.com
+- EverDue: everdue.app.support@gmail.com
