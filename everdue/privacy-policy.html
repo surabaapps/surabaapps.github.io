@@ -9,20 +9,27 @@
 <body>
   <nav><a href="../">Suraba Apps</a> · <a href="index.html">EverDue</a></nav>
   <h1>EverDue Privacy Policy</h1>
-  <p><strong>Effective date:</strong> August 31, 2026<br>
+  <p><strong>Effective date:</strong> September 4, 2026<br>
   <strong>App:</strong> EverDue for iOS (<code>ai.ashish.everdue</code>)<br>
   <strong>Developer:</strong> Ashish Patel</p>
 
-  <p>EverDue is designed to work without an account or an EverDue-operated server. The app stores reminders, document scans, recognized text, quick-reference information, and preferences in the app’s private storage on your device.</p>
+  <p>EverDue stores reminders, document scans, recognized text used for on-device review, and preferences in the app’s private storage on your device. Signing in is optional. If you sign in with Apple or Google, EverDue saves an account profile and reminder field data to EverDue’s backend (hosted on Supabase) so those reminders can be restored after the app is uninstalled. Scanned PDFs and photos stay on your device in this version and are not uploaded.</p>
 
   <h2>Summary</h2>
-  <p>EverDue does not collect, transmit, sell, or share personal data with the developer. The app contains no advertising, third-party analytics, tracking technology, or third-party SDKs.</p>
+  <p>EverDue does not sell personal data and does not include advertising, analytics, or tracking SDKs beyond the sign-in providers you choose. You can use the app without an account. If you sign in, reminder fields sync to your account; documents stay on this device.</p>
 
   <h2>Data collection</h2>
-  <p>EverDue does not send your reminders, documents, recognized text, or preferences to Ashish Patel or to any EverDue service. There is no EverDue cloud account.</p>
+  <p>Users who continue without an account keep all reminder and document data only on the device.</p>
+  <p>When you sign in:</p>
+  <ul>
+    <li>Apple or Google provides an identity token to create a session.</li>
+    <li>EverDue stores the account user ID, email (when the provider supplies one), display name, and sign-in provider on the backend.</li>
+    <li>Reminder details you entered (titles, due dates, amounts, notes, extracted text and facts, and related fields) are synced to that account.</li>
+    <li>Scanned PDFs and photos stay on the device and are not uploaded.</li>
+  </ul>
 
   <h2>Camera and document processing</h2>
-  <p>Camera access is used only when you choose to scan a document. Scanning and text recognition use Apple frameworks on the device. EverDue does not upload scanned images or recognized text to an EverDue service.</p>
+  <p>Camera access is used only when you choose to scan a document. Scanning and text recognition use Apple frameworks on the device. EverDue does not upload scanned images for processing.</p>
   <p>You may also import photos or PDFs from Photos, Files, or the iOS share sheet. Those files stay on the device unless you later share a copy yourself.</p>
 
   <h2>Notifications</h2>
@@ -36,7 +43,9 @@
   </ul>
 
   <h2>Storage, retention, and deletion</h2>
-  <p>Information remains in the app until you edit or delete it. Deleting an item removes its associated scan and scheduled reminders. Uninstalling EverDue removes its app data from the device, subject to your device backup and restoration settings.</p>
+  <p>Local information remains in the app until you edit or delete it. Deleting an item removes its associated scan, scheduled reminders, and (when signed in) the synced reminder record. Uninstalling EverDue removes local app data from the device, subject to your device backup and restoration settings.</p>
+  <p>Signed-in reminder fields remain in the EverDue account until you delete the items while signed in or delete the account from Account in the app.</p>
+  <p>Account deletion is available in the app while signed in: Account → Delete account. That action permanently removes the EverDue account, profile, and synced reminder fields from EverDue’s servers. Items and documents already stored on the device remain unless you delete them or uninstall the app.</p>
   <p>When you intentionally share a scanned PDF, the exported copy is handled by the destination you select and is subject to that destination’s privacy practices.</p>
   <p>The EverDue share extension only receives photos or PDFs you explicitly share, and stores them in a private App Group inbox until you open EverDue to finish importing.</p>
   <p>See <a href="delete-account.html">Delete your data</a> for step-by-step instructions.</p>
