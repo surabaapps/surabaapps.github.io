@@ -9,7 +9,7 @@
 <body>
   <nav><a href="../">Suraba Apps</a> · <a href="index.html">Mango</a></nav>
   <h1>Mango Privacy Policy</h1>
-  <p><strong>Effective date:</strong> September 6, 2026<br>
+  <p><strong>Effective date:</strong> September 7, 2026<br>
   <strong>Apps:</strong> Mango for Android (<code>com.farmlog.mango</code>) and Mango for iOS (<code>com.farmlog.Mango</code>)<br>
   <strong>Developer:</strong> Ashish Patel</p>
 
@@ -24,19 +24,19 @@
     <li><strong>Profile name</strong> — the name you set in the app.</li>
     <li><strong>Farm records you enter</strong> — farm and crop names, activity, wages, payments, balances, notes, and optional worker or partner phone numbers.</li>
     <li><strong>Voice input</strong> — if you tap the microphone, the device converts speech to help enter an amount. Audio is not stored on Mango servers.</li>
-    <li><strong>Usage analytics and diagnostics (optional)</strong> — on Android, predefined feature events and sanitized crash reports may be sent to Firebase when sharing is enabled. On iOS, the same <strong>You → Privacy</strong> control exists; iOS does not currently send analytics or crash reports. Farm names, person names, money amounts, notes, and tokens are never included. You can turn sharing off in <strong>You → Privacy</strong>.</li>
+    <li><strong>Usage analytics and diagnostics</strong> — on Android release builds, predefined feature events and sanitized crash reports may be sent to Firebase. Farm names, person names, money amounts, notes, and tokens are never included. Debug builds do not send this data. iOS does not currently send analytics or crash reports.</li>
   </ul>
 
   <h2>How data is stored and transmitted</h2>
   <ul>
     <li>Both apps need internet access to sign in and to save or load records.</li>
     <li>Workspace data is stored in Supabase (Postgres) in the Asia (Mumbai) region and is protected by row-level security so only your signed-in account can read or change it.</li>
-    <li>Optional analytics and crash reports on Android are sent to Firebase when sharing is enabled.</li>
+    <li>Analytics and crash reports on Android release builds are sent to Firebase.</li>
     <li>Device, iCloud, or Android backup may include app data depending on your device settings.</li>
   </ul>
 
   <h2>Sharing</h2>
-  <p>Mango does not sell personal or financial data. Google (sign-in, and optional Firebase on Android) and Supabase act as processors to provide the app. We do not use advertising identifiers.</p>
+  <p>Mango does not sell personal or financial data. Google (sign-in, and Firebase on Android) and Supabase act as processors to provide the app. We do not use advertising identifiers.</p>
 
   <h2>Permissions</h2>
   <ul>
